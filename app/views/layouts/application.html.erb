@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ForestApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header>
+    <h1 id = 'main_title'>The Trent End</h1>
+    <h2 id = 'secondary_title'>Your total Forest resource</h2> 
+
+    <nav>
+      <label for = 'External'>External Links</label>  
+        <ul name = 'External' id = 'External'>
+          <li><a href="http://www.nottinghamforest.co.uk/">Offical Forest Site</a></li>
+          <li><a href="http://www.bbc.co.uk/sport/football/teams/nottingham-forest">BBC Forest News</a></li>
+          <li><a href="http://www.nottinghampost.com/nottinghamforest">Nottingham Evening Post Forest News</a></li>
+          <li><a href="https://www.facebook.com/officialnffc">Forest Facebook Page</a></li>
+          <li><a href="https://twitter.com/official_nffc">Forest Twitter Link</a></li>
+      </ul>
+
+      <label for = 'Internal'>Internal Links</label>  
+        <ul name = 'Internal'>
+          <li><a href= '/info'>Club Info</a></li>
+          <li><a href= '/fixtures'>Fixtures and Results</a></li>
+      </ul>
+    </nav> 
+  </header>
+  <section>
+
+<%= yield %>
+</section>
+</body>
+</html>

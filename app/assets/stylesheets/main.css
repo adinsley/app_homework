@@ -1,0 +1,124 @@
+body {
+  background-image: url('http://www.stadiumguide.com/wp-content/gallery/cityground/cityground13.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+
+}
+
+header {
+  background-color: white;
+  opacity: 0.8;
+  border:1px solid #CCC;
+  width: auto;
+  margin:0px auto;
+}
+
+header h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  text-align: left;
+  padding-top: 0px;
+  margin: 0px;
+  padding-bottom: 0px
+
+}
+
+header h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 0px;
+  margin-top: 0px;
+
+}
+
+header label {
+  font-size: 1.25rem;
+  padding-right: 25px;
+
+}
+
+header ul {
+  padding-left: 0px;
+  margin-left: 0px
+
+}
+
+header li {
+  display: inline-block;
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 25px;
+  margin-left: 0px
+
+}
+
+header a {
+  display: inline;
+  text-decoration: none;
+  font-size: 1rem;
+  padding-left: 0px;
+  margin-left: 0px
+  padding-right: 25px;
+}
+
+section {
+  color: white;
+  
+
+}
+
+button {
+  background-image:url('https://upload.wikimedia.org/wikipedia/en/d/d2/Nottingham_Forest_logo.svg');
+  background-size: contain;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-color: white;
+  height: 25px;
+  width: 25px;
+  opacity: 0.9;
+  margin-top: 20px;
+  border-top: 20px;
+
+}
+
+img {
+  float: left;
+  border: 25px;
+  padding: 25px;
+
+}
+
+#goal {
+  border-color: black;
+  border-width: 10px;
+  border-radius: 10px
+  float: right;
+
+
+}
+
+#fixtures {
+
+    background-image: url('http://www.nottinghamforest.co.uk/cms_images/news/forest-fans-2-16940-2020700.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+#info {
+  background-color: white;
+    opacity: 0.3;
+    border:1px solid #CCC;
+    width: auto;
+    margin:0px auto;
+    color: black;
+    max-height: 500px;
+
+}
